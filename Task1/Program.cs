@@ -10,17 +10,10 @@
 */
 
 
-Console.Write("Введите количество сторок: ");
-int rows = int.Parse(Console.ReadLine()!);
-
-Console.Write("Введите количество столбцов: ");
-int columns = int.Parse(Console.ReadLine()!);
-
 int[,] array = GetArray(4, 4, 0, 10);
 PrintArray(array);
-OrderingRow(array);
-
-
+int[,] OrderredArray = OrderingRow(array);
+PrintArray(array);
 
 int[,] GetArray(int m, int n, int MinValue, int MaxValue)
 {
@@ -47,24 +40,25 @@ void PrintArray(int[,] array)
     }
 }
 
-int [,] OrderingRow(int[,] array)
+int[,] OrderingRow(int[,] array)
 {
-    int [,] OrderingArray = new int[array.GetLength(0), array.GetLength(1)];
-    
+    int[,] OrderingArray = new int[array.GetLength(0), array.GetLength(1)];
+    int temp = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        int MaxI = array[0,0];
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = array.GetLength(1) - 1; j >= 0; j--)
         {
-            if (array[i,j] > MaxI)
+            for (int k = j-1; k >=0 ; k--)
             {
-                MaxI = array[i,j];
-                OrderingArrayMaxI = i;
-                OrderingArrayMaxJ = j;
+                if (array[i, j] > array[i, k])
+                {
+                    temp = array[i, j];
+                    array[i, j] = array[i, k];
+                    array[i, k] = temp;
+                }
             }
-            //Console.Write($"{array[i, j]} ");
         }
-        Console.WriteLine();
     }
-    return 
+    Console.WriteLine();
+    return OrderingArray;
 }
