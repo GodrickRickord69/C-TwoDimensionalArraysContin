@@ -6,27 +6,27 @@
 10 09 08 07*/
 
 int n = 4;
-int[,] sqareMatrix = new int[n, n];
+int[,] SquareMatrix = new int[n, n];
 
 int temp = 1;
 int i = 0;
 int j = 0;
 
-while (temp <= sqareMatrix.GetLength(0) * sqareMatrix.GetLength(1))
+while (temp <= SquareMatrix.GetLength(0) * SquareMatrix.GetLength(1))
 {
-  sqareMatrix[i, j] = temp;
+  SquareMatrix[i, j] = temp;
   temp++;
-  if (i <= j + 1 && i + j < sqareMatrix.GetLength(1) - 1)
+  if (i <= j + 1 && i + j < SquareMatrix.GetLength(1) - 1)
     j++;
-  else if (i < j && i + j >= sqareMatrix.GetLength(0) - 1)
+  else if (i < j && i + j >= SquareMatrix.GetLength(0) - 1)
     i++;
-  else if (i >= j && i + j > sqareMatrix.GetLength(1) - 1)
+  else if (i >= j && i + j > SquareMatrix.GetLength(1) - 1)
     j--;
   else
     i--;
 }
 
-WriteArray(sqareMatrix);
+WriteArray(SquareMatrix);
 
 void WriteArray (int[,] array)
 {
@@ -35,9 +35,13 @@ void WriteArray (int[,] array)
     for (int j = 0; j < array.GetLength(1); j++)
     {
       if (array[i,j] / 10 <= 0)
+      {
       Console.Write($" {array[i,j]} ");
-
-      else Console.Write($"{array[i,j]} ");
+      }
+      else
+      {
+      Console.Write($"{array[i,j]} ");  
+      } 
     }
     Console.WriteLine();
   }
