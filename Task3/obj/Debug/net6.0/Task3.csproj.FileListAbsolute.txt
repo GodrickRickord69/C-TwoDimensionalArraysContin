@@ -1,0 +1,15 @@
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\bin\Debug\net6.0\Task3.exe
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\bin\Debug\net6.0\Task3.deps.json
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\bin\Debug\net6.0\Task3.runtimeconfig.json
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\bin\Debug\net6.0\Task3.dll
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\bin\Debug\net6.0\Task3.pdb
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.csproj.AssemblyReference.cache
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.GeneratedMSBuildEditorConfig.editorconfig
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.AssemblyInfoInputs.cache
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.AssemblyInfo.cs
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.csproj.CoreCompileInputs.cache
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.dll
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\refint\Task3.dll
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.pdb
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\Task3.genruntimeconfig.cache
+E:\СТАРЙ ПК\Хлам брата\для курсов разработчик\Знакомство с языками программирования\Семинары\C#TwoDimensionalArraysContin\Task3\obj\Debug\net6.0\ref\Task3.dll
